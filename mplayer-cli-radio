@@ -1,0 +1,7 @@
+# 1. Add RPM FUSION repo via their site
+# 2. Install mPlayer via Yum
+# 3. Add alias in bashrc - change URL to whatever the stream is
+echo "alias radio-lbc='mplayer -nocache -afm ffmpeg http://media-ice.musicradio.com/LBCUKMP3Low'" >> ~/.bashrc
+
+# Restart shell
+exec bash
