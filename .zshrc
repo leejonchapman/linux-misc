@@ -21,4 +21,8 @@ alias ls='ls --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
+#       Networking
+alias ports='netstat -tulanp'
+#       rSync
+alias rsync='rsync --progress --stats -ravz'
 
