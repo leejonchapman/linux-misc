@@ -2,14 +2,25 @@
 #       --
 #
 #       Docker
-alias dsc='docker service create'
-alias dsl='docker service ls'
-alias dslogs='docker service logs'
-alias dsp='docker service ps'
-alias dsu='docker service update'
+#               Service
+alias dsecr='docker service create'
+alias dsels='docker service ls'
+alias dselo='docker service logs'
+alias dseps='docker service ps'
+alias dseup='docker service update'
+alias dsein='docker service inspect'
+#               Stack
+alias dstdeco='docker stack deploy -c'
+alias dstrm='docker stack remove'
+#               Network
+alias dnerm='docker network rm'
+alias dnels='docker network ls'
+alias dnecr='docker network create'
 #       Git
 alias ga='git add'
 alias gi='git init'
+alias gc='git clone'
+alias gcm='git commit -m'
 #       SSH
 #
 #
@@ -25,4 +36,8 @@ alias grep='grep --color=auto'
 alias ports='netstat -tulanp'
 #       rSync
 alias rsync='rsync --progress --stats -ravz'
-
+#       VIM
+alias v='vim'
+#       ZSH
+alias ez='exec zsh'
+alias vz='vim ~/.zshrc'
