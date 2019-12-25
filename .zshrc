@@ -25,11 +25,12 @@ alias dnops='docker node ps'
 alias dnoin='docker node inspect'
 #
 #       Git
-#       u
-alias ga='git add'
-alias gi='git init'
-alias gc='git clone'
-alias gcm='git commit -m'
+alias gad='git add'
+alias gin='git init'
+alias gcl='git clone'
+alias gco='git commit -m'
+alias gst='git status'
+alias gpuorma='git push origin master'
 #       SSH
 #
 #
@@ -50,3 +51,4 @@ alias v='vim'
 #       ZSH
 alias ez='exec zsh'
 alias vz='vim ~/.zshrc'
+~
