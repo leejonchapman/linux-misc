@@ -16,7 +16,16 @@ alias dstrm='docker stack remove'
 alias dnerm='docker network rm'
 alias dnels='docker network ls'
 alias dnecr='docker network create'
+alias dnein='docker network inspect'
+#               PS
+alias dpsa='docker ps -a'
+#               Node
+alias dnols='docker node ls'
+alias dnops='docker node ps'
+alias dnoin='docker node inspect'
+#
 #       Git
+#       u
 alias ga='git add'
 alias gi='git init'
 alias gc='git clone'
